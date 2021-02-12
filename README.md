@@ -13,7 +13,8 @@
 我最新欢的是leonardo_Arduino板子，因为同样是对USB的利用，Windows、Linux、MAC等各类操作系统默认存在leonardo_Arduino的USB接口驱动，不必联网下载专用的驱动程序。此外，向BadUSB烧录的程序极为简单，大部分是对键盘、鼠标按键进行模拟，上手较为容易。  
 BadUSB也是社会工程学的一个典型示例，它极大地利用了人们的好奇心，在路边捡到的USB，估计九成以上的人们都想看看里面有什么东西，而当你插入个人主机或公司内网，攻击就很难再停止下来了。<br>
 
-#### 教程  
+#### 教程
+[视频地址](https://www.yuque.com/u12074055/cpuceb/qicml3)
 视频：BadUSB编译软件介绍<br>
 视频：BadUSB驱动程序安装及代码写入<br>
 视频：BadUSB基本操作<br>
@@ -194,6 +195,7 @@ BadUSB也是社会工程学的一个典型示例，它极大地利用了人们�
 
 
 #### 演示<br>
+[视频地址](https://www.yuque.com/u12074055/cpuceb/qfxz0f)
 视频：【硬件黑客】通过wifi控制上传执行，运行，编写hid脚本的badUSB以及一个小番外1<br>
 视频：【硬件黑客】通过WIFI控制上传执行，运行，编写hid脚本的BadUSB以及一个小番外2<br>
 视频：【BadUSB演示】U盘攻击：无视任何杀软，3秒黑掉你的电脑！<br>
@@ -203,13 +205,16 @@ BadUSB也是社会工程学的一个典型示例，它极大地利用了人们�
 视频：【BadUSB演示】更改所用账户密码+关闭系统进程+蓝屏测试<br>
 
 #### 进阶<br>
+[视频地址](https://www.yuque.com/u12074055/cpuceb/dm1veu)
 视频：BadUSB&MSF联动<br>
 视频：使用Nethunter启动BadUSB<br>
 
 #### 常见问题和错误<br>
+[视频地址](https://www.yuque.com/u12074055/cpuceb/uofha2)
 视频：BadUSB代码写入异常处理<br>
 
 #### 扩展<br>
+[视频地址](https://www.yuque.com/u12074055/cpuceb/hs3n7p)
 视频：【硬件黑客】九元成本做一个BadUSB<br>
 视频：【硬件黑客】可以直接替代大黄鸭和WiFiducky的新型BadUSB<br>
 视频： BadUSB教程Digispark+中文BadUSB <br>
