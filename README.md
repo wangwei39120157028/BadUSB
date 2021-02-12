@@ -219,6 +219,6 @@ BadUSB也是社会工程学的一个典型示例，它极大地利用了人们�
 ###### 2021.02.14更新代码，从其他优秀项目中获得启发，加入了CobaltStrike联动的木马、DNS劫持代码、linux和osx内置反向shell、WIFI连接木马、WIFI密码获取、网站一句话入侵代码、psl全屏hacked画面、运行U盘内的程序_扩大入侵范围以及实现很多实用功能的代码，情人节快乐！<br>
 
 #### 项目链接<br>
-代码已上传至GitHub及Gitee，**跪求star** ，其他项目也挺好玩的， **继续跪求Star** 。<br>
-**GitHub：** https://github.com/wangwei39120157028/BadUSB<br>
-**Gitee： ** https://gitee.com/wwy2018/BadUSB<br>
+代码已上传至GitHub及Gitee，** 跪求star** ，其他项目也挺好玩的， ** 继续跪求Star** 。<br>
+ ** GitHub：** https://github.com/wangwei39120157028/BadUSB<br>
+ ** Gitee： ** https://gitee.com/wwy2018/BadUSB<br>
