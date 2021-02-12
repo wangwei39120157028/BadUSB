@@ -14,6 +14,7 @@ My latest favorite is leonardo_Arduino board, because the same is the use of USB
 BadUSB is also a good example of social engineering. It plays on people's curiosity. It's estimated that more than 90% of people will want to see what's inside a USB they pick up on the side of the road.  <br><br>
 
 #### Tutorial  <br>
+[Video address](https://www.yuque.com/u12074055/cpuceb/qicml3) <br>
 Video: Introduction to BsdUSB Compiler<br>
 Video: BadUSB driver installation and code writing<br>
 Video: BadUSB basic operation<br>
@@ -192,6 +193,7 @@ Video: BadUSB basic operation<br>
              WiFiPasswordExport(tool).ino
         
 #### Demo<br>
+[Video address](https://www.yuque.com/u12074055/cpuceb/qfxz0f) <br>
 Video: [Hardware Hacker] Control the upload through WiFi to execute, run, write HID scripts for BADUSB as well as a small extra 1<br>
 Video: [Hardware Hacker] Control the upload via WiFi to execute, run, and write HID scripts for BADUSB as well as a small extra 2<br>
 Video: [BADUSB Demo] U Drive Attack: Ignore any kill soft, hack your computer in 3 seconds!<br>
@@ -201,13 +203,16 @@ Video: [BADUSB demo] BADUSB implementation record keyboard<br>
 Video: [BADUSB demo] Change the password of the account used + close the system process + blue screen test<br>
 
 #### Advanced<br>
+[Video address](https://www.yuque.com/u12074055/cpuceb/dm1veu) <br>
 Video: Badusb&MSF linkage<br>
 Video: Start BadUSB with Nethunter<br>
 
 #### Frequently asked questions and errors<br>
+[Video address](https://www.yuque.com/u12074055/cpuceb/uofha2) <br>
 Video: BadUSB code writes exception handling<br>
 
 #### extension<br>
+[Video address](https://www.yuque.com/u12074055/cpuceb/hs3n7p) <br>
 Video: [Hardware Hacker] Nine dollars to make a BadUSB<br>
 Video: [Hardware Hacker] can directly replace Big Yellow Duck and Wifiducky's new BadUSB<br>
 Video: BadUSB Tutorial Digispark + Chinese BadUSB<br>
