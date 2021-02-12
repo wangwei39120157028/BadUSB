@@ -11,7 +11,7 @@
 
 #### 优势
 在USB攻击领域，很多年前常用的是老式USB病毒（自动运行）autorun.inf，但文件现在已经会被杀毒软件轻易地查杀，与autorun.inf不同，BadUSB是利用了USB协议上的漏洞，通过更改USB的内部固件，在正常的USB接口接入后，模拟外置鼠标、键盘的功能，以此来使目标主机执行已经精心构造好的命令。在此过程中不会引起杀毒软件、防火墙的一丝怀疑。而且因为是在固件级别的应用，U盘格式化根本无法阻止其内部代码的执行。  
-![Leonardo_Arduino](https://upload-images.jianshu.io/upload_images/11477676-847cea1424a20e07.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
+![Leonardo_Arduino](https://upload-images.jianshu.io/upload_images/11477676-4347a3e41663dde6.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 我最新欢的是Leonardo_Arduino板子，因为同样是对USB的利用，Windows、Linux、MAC等各类操作系统默认存在leonardo_Arduino的USB接口驱动，不必联网下载专用的驱动程序。此外，向BadUSB烧录的程序极为简单，大部分是对键盘、鼠标按键进行模拟，上手较为容易。  
 BadUSB也是社会工程学的一个典型示例，它极大地利用了人们的好奇心，在路边捡到的USB，估计九成以上的人们都想看看里面有什么东西，而当你插入个人主机或公司内网，攻击就很难再停止下来了。<br>
 ![BadUSB钓鱼](https://upload-images.jianshu.io/upload_images/11477676-3d1f812778254931.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
@@ -207,30 +207,30 @@ BadUSB也是社会工程学的一个典型示例，它极大地利用了人们�
 视频：【BadUSB演示】入侵广场大屏幕，附带教程2<br>
 视频：【BadUSB演示】BadUSB实现记录键盘<br>
 视频：【BadUSB演示】更改所用账户密码+关闭系统进程+蓝屏测试<br>
-![演示](https://upload-images.jianshu.io/upload_images/11477676-f1ac1cbf60370e8c.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/600/format/webp)<br>
+![演示](https://upload-images.jianshu.io/upload_images/11477676-31390e8446540ca3.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 #### 进阶<br>
 [视频地址](https://www.yuque.com/u12074055/cpuceb/dm1veu) <br>
 视频：BadUSB&MSF联动<br>
 视频：使用Nethunter启动BadUSB<br>
-![进阶](https://upload-images.jianshu.io/upload_images/11477676-dc1c25d9bd6ae7b3.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/640/format/webp)<br>
+![进阶](https://upload-images.jianshu.io/upload_images/11477676-cc6c47da713ac2e2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 #### 常见问题和错误<br>
 [视频地址](https://www.yuque.com/u12074055/cpuceb/uofha2) <br>
 视频：BadUSB代码写入异常处理<br>
-![常见问题和错误](https://upload-images.jianshu.io/upload_images/11477676-08caddd39a8ed8a5.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/413/format/webp)<br>
+![常见问题和错误](https://upload-images.jianshu.io/upload_images/11477676-0c90a8004d5e5420.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 #### 扩展<br>
 [视频地址](https://www.yuque.com/u12074055/cpuceb/hs3n7p) <br>
 视频：【硬件黑客】九元成本做一个BadUSB<br>
 视频：【硬件黑客】可以直接替代大黄鸭和WiFiducky的新型BadUSB<br>
 视频： BadUSB教程Digispark+中文BadUSB <br>
-![扩展](https://upload-images.jianshu.io/upload_images/11477676-75bdb3e46a270e5a.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/945/format/webp)<br>
+![扩展](https://upload-images.jianshu.io/upload_images/11477676-bba7de72abd2072d.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 #### 更新<br>
 ###### 2021.02.06更新代码，部分是从其他爱好者哪里搜寻的开源代码，部分是与MSF联动的方法流程以及我认为比较好用的Arduino Leonardo基础按键代码<br>
 ###### 2021.02.14更新代码，从其他优秀项目中获得启发，加入了CobaltStrike联动的木马、DNS劫持代码、linux和osx内置反向shell、WIFI连接木马、WIFI密码获取、网站一句话入侵代码、psl全屏hacked画面、运行U盘内的程序_扩大入侵范围以及实现很多实用功能的代码，情人节快乐！<br>
-![更新](https://upload-images.jianshu.io/upload_images/11477676-0230861c14813313.jpeg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
+![更新](https://upload-images.jianshu.io/upload_images/11477676-a54932b08d3ef2da.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 #### 项目链接<br>
 
