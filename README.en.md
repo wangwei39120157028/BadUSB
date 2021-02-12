@@ -217,6 +217,6 @@ Video: BadUSB Tutorial Digispark + Chinese BadUSB<br>
 ###### 2021.02.14 update code, gain inspiration from other good project, join the trojans, DNS hijacking CobaltStrike linkage code, Linux and osx reverse shell, WIFI connection trojans, built-in WIFI password access, website a word invasion code, PSL full-screen hacked images, running programs in the U dish _ for expanding the scope of the invasion, and realize a lot of practical function code, the valentine day is joyful!<br>
 
 #### Link<br>
-The code has been uploaded to GitHub and Gitee, ** beg star**, other projects are also very fun, ** continue to beg star**.<br>
+The code has been uploaded to GitHub and Gitee, **beg star **, other projects are also very fun, **continue to beg star **.<br>
 **GitHub：** https://github.com/wangwei39120157028/BadUSB<br>
 **Gitee： ** https://gitee.com/wwy2018/BadUSB<br>
