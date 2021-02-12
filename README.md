@@ -21,177 +21,176 @@ BadUSB也是社会工程学的一个典型示例，它极大地利用了人们�
 
 #### 目录导图<br>
 
-<br> BadUSB<br>
-<br> │  LICENSE<br>
-<br> │  README.en.md<br>
-<br> │  README.md<br>
-<br> │    
-<br> ├─BlueScreen蓝屏<br>
-<br> │      BlueScreen蓝屏1（DOS）.ino<br>
-<br> │      BlueScreen蓝屏2（DOS）.ino<br>
-<br> │      BlueScreen蓝屏3（DOS）.ino<br>
-<br> │      xp和win7的蓝屏代码（DOS攻击）.ino<br>
-<br> │      延迟蓝屏（DOS）.ino<br>
-<br> │      注册表写入致使开机蓝屏通用（DOS）.ino<br>
-<br> │      注册表写入致使开机蓝屏（DOS）.ino<br>
-<br> │      
-<br> ├─CobaltStrike木马联动<br>
-<br> │  │  BitsAdmin木马执行（与CS联动）.ino<br>
-<br> │  │  Pl木马执行（与CS联动）.ino<br>
-<br> │  │  PSL木马执行（与CS联动）.ino<br>
-<br> │  │  PY木马执行（与CS联动）.ino<br>
-<br> │  │  Regsvr32木马执行（与CS联动）.ino<br>
-<br> │  │  
-<br> │  ├─CobaltStrike各种语言的Payload<br>
-<br> │  │      payload.bin<br>
-<br> │  │      payload.c<br>
-<br> │  │      payload.cs<br>
-<br> │  │      payload.java<br>
-<br> │  │      payload.pl<br>
-<br> │  │      payload.ps1<br>
-<br> │  │      payload.py<br>
-<br> │  │      payload.rb<br>
-<br> │  │      payload.sct<br>
-<br> │  │      payload.txt<br>
-<br> │  │      payload.vba<br>
-<br> │  │      
-<br> │  └─CounterStrike木马制作教程<br>
-<br> │          CounterStrike.jpg<br>
-<br> │          CounterStrike木马制作教程.png<br>
-<br> │          
-<br> ├─DNS劫持<br>
-<br> │      DOS命令设置多个DNS（DNS劫持）.ino<br>
-<br> │      PSL命令设置多个DNS（DNS劫持）.ino<br>
-<br> │      
-<br> ├─Linux内置反向Shell<br>
-<br> │      Linux内置的反向Shell（BashShell）.ino<br>
-<br> │      Linux反向Shell（PerlShell）.ino<br>
-<br> │      Linux反向Shell（代码执行）.ino<br>
-<br> │      
-<br> ├─MSF木马联动<br>
-<br> │      shell.apk<br>
-<br> │      shell.asp<br>
-<br> │      shell.aspx<br>
-<br> │      shell.elf<br>
-<br> │      shell.exe<br>
-<br> │      shell.jar<br>
-<br> │      shell.jsp<br>
-<br> │      shell.macho<br>
-<br> │      shell.php<br>
-<br> │      shell.pl<br>
-<br> │      shell.psl<br>
-<br> │      shell.py<br>
-<br> │      shell.sh<br>
-<br> │      shell.war<br>
-<br> │      Shell木马生成配置.txt<br>
-<br> │      
-<br> ├─OSX内置反向Shell<br>
-<br> │      osx系统反向连接（dns_shell）.ino<br>
-<br> │      osx系统反向连接（perl_shell）.ino<br>
-<br> │      osx系统反向连接（ruby_shell）.ino<br>
-<br> │      
-<br> ├─PSL全屏HACKED画面<br>
-<br> │  ├─FullScreenHackedv0<br>
-<br> │  │  │  get.ps1<br>
-<br> │  │  │  
-<br> │  │  └─FullScreenHackedv<br>
-<br> │  │          FullScreenHackedv.ino<br>
-<br> │  │          
-<br> │  ├─FullScreenHackedv2<br>
-<br> │  │      FullScreenHackedv2.ino<br>
-<br> │  │      wall.ps1<br>
-<br> │  │      
-<br> │  └─FullScreenHackedv3[慎用]<br>
-<br> │      │  get.ps1<br>
-<br> │      │  
-<br> │      └─FullScreenHackedv3<br>
-<br> │              FullScreenHackedv3.ino<br>
-<br> │              
-<br> ├─Ubuntu信息搜集<br>
-<br> │      Ubuntu信息搜集到TXT文件（信息）.ino<br>
-<br> │      Ubuntu的基本终端命令（显示）.ino<br>
-<br> │      
-<br> ├─WIFI密码获取<br>
-<br> │      WIFI密码导出（工具）.ino<br>
-<br> │      Wifi密码捕获（工具）.ino<br>
-<br> │      
-<br> ├─WIFI连接木马<br>
-<br> │      强迫连接指定WIFI并下载psl木马运行（木马入侵）.ino<br>
-<br> │      
-<br> ├─代码原理解读<br>
-<br> │      arduino按键代码基础.ino<br>
-<br> │      MSF木马制作教程.txt<br>
-<br> │      关于setup和loop方法的说明.txt<br>
-<br> │      
-<br> ├─木马下载器<br>
-<br> │  ├─CERTUTIL木马下载器（木马攻击）代码<br>
-<br> │  │      链接服务器msf木马certutil下载版.ino<br>
-<br> │  │      
-<br> │  ├─FTP木马下载器（木马攻击）代码<br>
-<br> │  │      FTP下载netcat并反向连接shell（木马攻击）.ino<br>
-<br> │  │      
-<br> │  ├─JAVA木马写入（木马攻击）代码<br>
-<br> │  │      java木马写入（目标环境可运行Java）.ino<br>
-<br> │  │      server.java<br>
-<br> │  │      
-<br> │  ├─PSL木马下载器（木马攻击）代码<br>
-<br> │  │      powershell下载服务器木马.ino<br>
-<br> │  │      psl木马下载器1（木马攻击）.ino<br>
-<br> │  │      psl木马下载器2（木马攻击）.ino<br>
-<br> │  │      psl木马下载器3通用（木马攻击）.ino<br>
-<br> │  │      psl木马下载器4通用（木马攻击）.ino<br>
-<br> │  │      psl木马下载器win&linux通用（木马攻击）.ino<br>
-<br> │  │      psl木马写入并反弹（木马攻击）.ino<br>
-<br> │  │      下载psl木马并二次执行（木马攻击）.ino<br>
-<br> │  │      链接服务器msf木马psl下载版.ino<br>
-<br> │  │      链接服务器psl下载版.ino<br>
-<br> │  │      
-<br> │  └─PY木马下载器（木马攻击）代码<br>
-<br> │          PyShellServer.py<br>
-<br> │          Py木马写入（目标环境可运行Python）.ino<br>
-<br> │          
-<br> ├─添加用户并开启服务<br>
-<br> │      添加用户并开启3389（工具）.ino<br>
-<br> │      添加用户并开启ftp（工具）.ino<br>
-<br> │      
-<br> ├─特定功能代码<br>
-<br> │      Alt_F4循环关闭窗口后关机（工具）.ino<br>
-<br> │      Shift后门（工具）.ino<br>
-<br> │      单纯改变所有用户密码（恶作剧项）.ino<br>
-<br> │      启动PSL远程连接功能（工具）.ino<br>
-<br> │      强制删除360各项进程（工具）.ino<br>
-<br> │      强制执行关机ShutDown命令（工具）.ino<br>
-<br> │      截屏并发送指定FTP地址（工具）.ino<br>
-<br> │      打开对方445端口（内网渗透）.ino<br>
-<br> │      打开指定网页（工具）.ino<br>
-<br> │      更改所用账户密码+关闭系统进程+蓝屏（工具）.ino<br>
-<br> │      添加用户代码（工具）.ino<br>
-<br> │      简简单单关个机（恶作剧项）.ino<br>
-<br> │      隐藏CMD窗口（显示）.ino<br>
-<br> │      鼠标不停移动（工具）.ino<br>
-<br> │      
-<br> ├─网站一句话入侵代码<br>
-<br> │      aspx一句话木马写入（网站服务器版本-过狗过D盾）.ino<br>
-<br> │      aspx一句话木马写入（网站服务器版本） .ino<br>
-<br> │      asp一句话木马写入（网站服务器版本-Script Encoder 加密）.ino<br>
-<br> │      asp一句话木马写入（网站服务器版本-动态解码）.ino<br>
-<br> │      asp一句话木马写入（网站服务器版本） .ino<br>
-<br> │      jsp一句话木马写入（jsp网站服务器使用）.ino<br>
-<br> │      jsp木马写入（jsp网站服务器使用非一句话）.ino<br>
-<br> │      php木马写入（php网站服务器使用-异或绕过）.ino<br>
-<br> │      php木马写入（php网站服务器使用-类绕过）.ino<br>
-<br> │      php木马写入（php网站服务器使用）.ino<br>
-<br> │      
-<br> └─运行U盘内的程序_扩大入侵范围<br>
-<br>     ├─UdiskRun<br>
-<br>     │      UdiskRun.ino<br>
-<br>     │      
-<br>     ├─UdiskRunv2<br>
-<br>     │      UdiskRunv2.ino<br>
-<br>     │      
-<br>     └─UdiskRunv3<br>
-<br>     UdiskRunv3.ino<br>
-            
+     BadUSB<br>
+     │  LICENSE<br>
+     │  README.en.md<br>
+     │  README.md<br>
+     │    
+     ├─BlueScreen蓝屏<br>
+     │      BlueScreen蓝屏1（DOS）.ino<br>
+     │      BlueScreen蓝屏2（DOS）.ino<br>
+     │      BlueScreen蓝屏3（DOS）.ino<br>
+     │      xp和win7的蓝屏代码（DOS攻击）.ino<br>
+     │      延迟蓝屏（DOS）.ino<br>
+     │      注册表写入致使开机蓝屏通用（DOS）.ino<br>
+     │      注册表写入致使开机蓝屏（DOS）.ino<br>
+     │      
+     ├─CobaltStrike木马联动<br>
+     │  │  BitsAdmin木马执行（与CS联动）.ino<br>
+     │  │  Pl木马执行（与CS联动）.ino<br>
+     │  │  PSL木马执行（与CS联动）.ino<br>
+     │  │  PY木马执行（与CS联动）.ino<br>
+     │  │  Regsvr32木马执行（与CS联动）.ino<br>
+     │  │  
+     │  ├─CobaltStrike各种语言的Payload<br>
+     │  │      payload.bin<br>
+     │  │      payload.c<br>
+     │  │      payload.cs<br>
+     │  │      payload.java<br>
+     │  │      payload.pl<br>
+     │  │      payload.ps1<br>
+     │  │      payload.py<br>
+     │  │      payload.rb<br>
+     │  │      payload.sct<br>
+     │  │      payload.txt<br>
+     │  │      payload.vba<br>
+     │  │      
+     │  └─CounterStrike木马制作教程<br>
+     │          CounterStrike.jpg<br>
+     │          CounterStrike木马制作教程.png<br>
+     │          
+     ├─DNS劫持<br>
+     │      DOS命令设置多个DNS（DNS劫持）.ino<br>
+     │      PSL命令设置多个DNS（DNS劫持）.ino<br>
+     │      
+     ├─Linux内置反向Shell<br>
+     │      Linux内置的反向Shell（BashShell）.ino<br>
+     │      Linux反向Shell（PerlShell）.ino<br>
+     │      Linux反向Shell（代码执行）.ino<br>
+     │      
+     ├─MSF木马联动<br>
+     │      shell.apk<br>
+     │      shell.asp<br>
+     │      shell.aspx<br>
+     │      shell.elf<br>
+     │      shell.exe<br>
+     │      shell.jar<br>
+     │      shell.jsp<br>
+     │      shell.macho<br>
+     │      shell.php<br>
+     │      shell.pl<br>
+     │      shell.psl<br>
+     │      shell.py<br>
+     │      shell.sh<br>
+     │      shell.war<br>
+     │      Shell木马生成配置.txt<br>
+     │      
+     ├─OSX内置反向Shell<br>
+     │      osx系统反向连接（dns_shell）.ino<br>
+     │      osx系统反向连接（perl_shell）.ino<br>
+     │      osx系统反向连接（ruby_shell）.ino<br>
+     │      
+     ├─PSL全屏HACKED画面<br>
+     │  ├─FullScreenHackedv0<br>
+     │  │  │  get.ps1<br>
+     │  │  │  
+     │  │  └─FullScreenHackedv<br>
+     │  │          FullScreenHackedv.ino<br>
+     │  │          
+     │  ├─FullScreenHackedv2<br>
+     │  │      FullScreenHackedv2.ino<br>
+     │  │      wall.ps1<br>
+     │  │      
+     │  └─FullScreenHackedv3[慎用]<br>
+     │      │  get.ps1<br>
+     │      │  
+     │      └─FullScreenHackedv3<br>
+     │              FullScreenHackedv3.ino<br>
+     │              
+     ├─Ubuntu信息搜集<br>
+     │      Ubuntu信息搜集到TXT文件（信息）.ino<br>
+     │      Ubuntu的基本终端命令（显示）.ino<br>
+     │      
+     ├─WIFI密码获取<br>
+     │      WIFI密码导出（工具）.ino<br>
+     │      Wifi密码捕获（工具）.ino<br>
+     │      
+     ├─WIFI连接木马<br>
+     │      强迫连接指定WIFI并下载psl木马运行（木马入侵）.ino<br>
+     │      
+     ├─代码原理解读<br>
+     │      arduino按键代码基础.ino<br>
+     │      MSF木马制作教程.txt<br>
+     │      关于setup和loop方法的说明.txt<br>
+     │      
+     ├─木马下载器<br>
+     │  ├─CERTUTIL木马下载器（木马攻击）代码<br>
+     │  │      链接服务器msf木马certutil下载版.ino<br>
+     │  │      
+     │  ├─FTP木马下载器（木马攻击）代码<br>
+     │  │      FTP下载netcat并反向连接shell（木马攻击）.ino<br>
+     │  │      
+     │  ├─JAVA木马写入（木马攻击）代码<br>
+     │  │      java木马写入（目标环境可运行Java）.ino<br>
+     │  │      server.java<br>
+     │  │      
+     │  ├─PSL木马下载器（木马攻击）代码<br>
+     │  │      powershell下载服务器木马.ino<br>
+     │  │      psl木马下载器1（木马攻击）.ino<br>
+     │  │      psl木马下载器2（木马攻击）.ino<br>
+     │  │      psl木马下载器3通用（木马攻击）.ino<br>
+     │  │      psl木马下载器4通用（木马攻击）.ino<br>
+     │  │      psl木马下载器win&linux通用（木马攻击）.ino<br>
+     │  │      psl木马写入并反弹（木马攻击）.ino<br>
+     │  │      下载psl木马并二次执行（木马攻击）.ino<br>
+     │  │      链接服务器msf木马psl下载版.ino<br>
+     │  │      链接服务器psl下载版.ino<br>
+     │  │      
+     │  └─PY木马下载器（木马攻击）代码<br>
+     │          PyShellServer.py<br>
+     │          Py木马写入（目标环境可运行Python）.ino<br>
+     │          
+     ├─添加用户并开启服务<br>
+     │      添加用户并开启3389（工具）.ino<br>
+     │      添加用户并开启ftp（工具）.ino<br>
+     │      
+     ├─特定功能代码<br>
+     │      Alt_F4循环关闭窗口后关机（工具）.ino<br>
+     │      Shift后门（工具）.ino<br>
+     │      单纯改变所有用户密码（恶作剧项）.ino<br>
+     │      启动PSL远程连接功能（工具）.ino<br>
+     │      强制删除360各项进程（工具）.ino<br>
+     │      强制执行关机ShutDown命令（工具）.ino<br>
+     │      截屏并发送指定FTP地址（工具）.ino<br>
+     │      打开对方445端口（内网渗透）.ino<br>
+     │      打开指定网页（工具）.ino<br>
+     │      更改所用账户密码+关闭系统进程+蓝屏（工具）.ino<br>
+     │      添加用户代码（工具）.ino<br>
+     │      简简单单关个机（恶作剧项）.ino<br>
+     │      隐藏CMD窗口（显示）.ino<br>
+     │      鼠标不停移动（工具）.ino<br>
+     │      
+     ├─网站一句话入侵代码<br>
+     │      aspx一句话木马写入（网站服务器版本-过狗过D盾）.ino<br>
+     │      aspx一句话木马写入（网站服务器版本） .ino<br>
+     │      asp一句话木马写入（网站服务器版本-Script Encoder 加密）.ino<br>
+     │      asp一句话木马写入（网站服务器版本-动态解码）.ino<br>
+     │      asp一句话木马写入（网站服务器版本） .ino<br>
+     │      jsp一句话木马写入（jsp网站服务器使用）.ino<br>
+     │      jsp木马写入（jsp网站服务器使用非一句话）.ino<br>
+     │      php木马写入（php网站服务器使用-异或绕过）.ino<br>
+     │      php木马写入（php网站服务器使用-类绕过）.ino<br>
+     │      php木马写入（php网站服务器使用）.ino<br>
+     │      
+     └─运行U盘内的程序_扩大入侵范围<br>
+         ├─UdiskRun<br>
+         │      UdiskRun.ino<br>
+         │      
+         ├─UdiskRunv2<br>
+         │      UdiskRunv2.ino<br>
+         │      
+         └─UdiskRunv3<br>
+         UdiskRunv3.ino<br>
 
 
 #### 演示<br>
