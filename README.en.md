@@ -5,22 +5,27 @@ This project takes advantage of the loophole in USB protocol. By changing the in
 #### QQ：775942445<br>
 #### WeChat：wwy18795980897<br>
 
-#### Introduction<br>
+### Introduction<br>
 Like most of us, BadUSB was first introduced in Mr. Robot and is one of the FSociety's most popular tools. Whether it's downloading a Trojan to a server to control a victim's host, or Darlene throwing a bunch of USB phishing devices in a parking lot, BadUSB is one of the most important physical weapons.  <br>
+![黑客军团](https://upload-images.jianshu.io/upload_images/11477676-71045c807dac0df6.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### Advantage<br>
+### Advantage<br>
 Is commonly used in the field of USB attack, many years ago old USB virus (automatic) autorun. Inf, but the file is now will be antivirus software easily detected, and the autorun. J inf, BadUSB is to use a loophole in the USB protocol, by changing the interior of the USB firmware, after normal USB port access, to simulate the external function of the mouse, keyboard, in order to make the target host execution has been carefully constructed good command. In this process will not cause anti-virus software, a trace of suspicion firewall. And because it's at the firmware level, USB flash drive formatting can't prevent the execution of its internal code.  <br>
+![Leonardo_Arduino](https://upload-images.jianshu.io/upload_images/11477676-4347a3e41663dde6.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
+
 My latest favorite is leonardo_Arduino board, because the same is the use of USB, Windows, Linux, Mac and other operating systems default existence leonardo_Arduino USB interface driver, do not have to network download dedicated driver. In addition, to BADUSB burning procedures are very simple, most of the keyboard, mouse keys for simulation, easy to get started.  <br>
 BadUSB is also a good example of social engineering. It plays on people's curiosity. It's estimated that more than 90% of people will want to see what's inside a USB they pick up on the side of the road.  <br><br>
+![BadUSB钓鱼](https://upload-images.jianshu.io/upload_images/11477676-3d1f812778254931.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### Tutorial  <br>
+### Tutorial  <br>
 [Video address](https://www.yuque.com/u12074055/cpuceb/qicml3) <br>
 Video: Introduction to BsdUSB Compiler<br>
 Video: BadUSB driver installation and code writing<br>
 Video: BadUSB basic operation<br>
 [For detailed steps, please go to the brief book](https://www.jianshu.com/p/2b2b1dab85fe) <br>
+![操作步骤](https://upload-images.jianshu.io/upload_images/11477676-390539861bec703c.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### Directory
+### Directory
      BadUSB<br>
      │  LICENSE<br>
      │  README.en.md<br>
@@ -192,7 +197,7 @@ Video: BadUSB basic operation<br>
              WiFiPasswordCapture(tool).ino
              WiFiPasswordExport(tool).ino
         
-#### Demo<br>
+### Demo<br>
 [Video address](https://www.yuque.com/u12074055/cpuceb/qfxz0f) <br>
 Video: [Hardware Hacker] Control the upload through WiFi to execute, run, write HID scripts for BADUSB as well as a small extra 1<br>
 Video: [Hardware Hacker] Control the upload via WiFi to execute, run, and write HID scripts for BADUSB as well as a small extra 2<br>
@@ -201,27 +206,32 @@ Video: [BADUSB Demo] Invading Square Large Screen, with Tutorial 1<br>
 Video: [BADUSB Demo] Invading Square Large Screen, with Tutorial 2<br>
 Video: [BADUSB demo] BADUSB implementation record keyboard<br>
 Video: [BADUSB demo] Change the password of the account used + close the system process + blue screen test<br>
+![演示](https://upload-images.jianshu.io/upload_images/11477676-31390e8446540ca3.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### Advanced<br>
+### Advanced<br>
 [Video address](https://www.yuque.com/u12074055/cpuceb/dm1veu) <br>
 Video: Badusb&MSF linkage<br>
 Video: Start BadUSB with Nethunter<br>
+![进阶](https://upload-images.jianshu.io/upload_images/11477676-cc6c47da713ac2e2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### Frequently asked questions and errors<br>
+### Frequently asked questions and errors<br>
 [Video address](https://www.yuque.com/u12074055/cpuceb/uofha2) <br>
 Video: BadUSB code writes exception handling<br>
+![常见问题和错误](https://upload-images.jianshu.io/upload_images/11477676-0c90a8004d5e5420.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### extension<br>
+### extension<br>
 [Video address](https://www.yuque.com/u12074055/cpuceb/hs3n7p) <br>
 Video: [Hardware Hacker] Nine dollars to make a BadUSB<br>
 Video: [Hardware Hacker] can directly replace Big Yellow Duck and Wifiducky's new BadUSB<br>
 Video: BadUSB Tutorial Digispark + Chinese BadUSB<br>
+![扩展](https://upload-images.jianshu.io/upload_images/11477676-bba7de72abd2072d.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### Update<br>
+### Update<br>
 ###### 2021.02.06 update code, part of which is the open source code searched from other enthusiasts, part of which is the method flow linked with MSF and the Arduino Leonardo basic key code that I think is better to use<br>
 ###### 2021.02.14 update code, gain inspiration from other good project, join the trojans, DNS hijacking CobaltStrike linkage code, Linux and osx reverse shell, WIFI connection trojans, built-in WIFI password access, website a word invasion code, PSL full-screen hacked images, running programs in the U dish _ for expanding the scope of the invasion, and realize a lot of practical function code, the valentine day is joyful!<br>
+![更新](https://upload-images.jianshu.io/upload_images/11477676-a54932b08d3ef2da.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-#### Link<br>
+### Link<br>
 The code has been uploaded to GitHub and Gitee, **beg star**, other projects are also very fun, **continue to beg star**.<br>
 
 **GitHub：** https://github.com/wangwei39120157028/BadUSB<br>
