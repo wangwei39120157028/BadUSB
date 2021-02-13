@@ -25,57 +25,58 @@ Video: BadUSB basic operation<br>
 [For detailed steps, please go to the brief book](https://www.jianshu.com/p/2b2b1dab85fe) <br>
 ![操作步骤](https://upload-images.jianshu.io/upload_images/11477676-390539861bec703c.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-### Directory
-     BadUSB<br>
-     │  LICENSE<br>
-     │  README.en.md<br>
-     │  README.md<br>
+### Directory<br>
+    
+    BadUSB
+     │  LICENSE
+     │  README.en.md
+     │  README.md
      │  
-     ├─AddUser_StartService<br>
-     │      AddUser_Enable3389(tools).ino<br>
-     │      AddUser_EnableFTP(tools).ino<br>
+     ├─AddUser_StartService
+     │      AddUser_Enable3389(tools).ino
+     │      AddUser_EnableFTP(tools).ino
      │      
-     ├─BlueScreen<br>
-     │      BlueScreen1(DOS).ino<br>
-     │      BlueScreen2(DOS).ino<br>
-     │      BlueScreen3(DOS).ino<br>
-     │      BlueScreen_xp_win7(DOS).ino<br>
-     │      DelayedBlueScreen (DOS).ino<br>
-     │      RegistryWriteBlueScreen (DOS).ino<br>
-     │      RegistryWriteBlueScreenGeneralUse (DOS).ino<br>
+     ├─BlueScreen
+     │      BlueScreen1(DOS).ino
+     │      BlueScreen2(DOS).ino
+     │      BlueScreen3(DOS).ino
+     │      BlueScreen_xp_win7(DOS).ino
+     │      DelayedBlueScreen (DOS).ino
+     │      RegistryWriteBlueScreen (DOS).ino
+     │      RegistryWriteBlueScreenGeneralUse (DOS).ino
      │      
-     ├─CobaltStrike_Trojanlinkage<br>
-     │  │  Bitsadmin_TrojanExecution (LinkageWithCS).ino<br>
-     │  │  Pl_TrojanExecution (LinkageWithCS).ino<br>
-     │  │  PSL_TrojanExecution (LinkageWithCS).ino<br>
-     │  │  PY_TrojanExecution (LinkageWithCS).ino<br>
-     │  │  Regsvr32_TrojanExecution (LinkageWithCS).ino<br>
+     ├─CobaltStrike_Trojanlinkage
+     │  │  Bitsadmin_TrojanExecution (LinkageWithCS).ino
+     │  │  Pl_TrojanExecution (LinkageWithCS).ino
+     │  │  PSL_TrojanExecution (LinkageWithCS).ino
+     │  │  PY_TrojanExecution (LinkageWithCS).ino
+     │  │  Regsvr32_TrojanExecution (LinkageWithCS).ino
      │  │  
-     │  ├─CobaltStrike_Payload<br>
-     │  │      payload.bin<br>
-     │  │      payload.c<br>
-     │  │      payload.cs<br>
-     │  │      payload.java<br>
-     │  │      payload.pl<br>
-     │  │      payload.ps1<br>
-     │  │      payload.py<br>
-     │  │      payload.rb<br>
-     │  │      payload.sct<br>
-     │  │      payload.txt<br>
-     │  │      payload.vba<br>
+     │  ├─CobaltStrike_Payload
+     │  │      payload.bin
+     │  │      payload.c
+     │  │      payload.cs
+     │  │      payload.java
+     │  │      payload.pl
+     │  │      payload.ps1
+     │  │      payload.py
+     │  │      payload.rb
+     │  │      payload.sct
+     │  │      payload.txt
+     │  │      payload.vba
      │  │      
-     │  └─CounterStrikeTrojanTutorial<br>
-     │          CounterStrike.jpg<br>
-     │          CounterStrikeTutorial.png<br>
+     │  └─CounterStrikeTrojanTutorial
+     │          CounterStrike.jpg
+     │          CounterStrikeTutorial.png
      │          
-     ├─CodePrincipleInterpretation<br>
-     │      ArduinoKeyCodeBase.ino<br>
-     │      InstructionsOn_setup_loop_Methods.txt<br>
-     │      MSF_TrojanMakingTutorial.txt<br>
+     ├─CodePrincipleInterpretation
+     │      ArduinoKeyCodeBase.ino
+     │      InstructionsOn_setup_loop_Methods.txt
+     │      MSF_TrojanMakingTutorial.txt
      │      
      ├─DNSHijack
-     │      DOS_CommandSetMultipleDNS(DNSHijack).ino<br>
-     │      PSL_CommandSetMultipleDNS(DNSHijack).ino<br>
+     │      DOS_CommandSetMultipleDNS(DNSHijack).ino
+     │      PSL_CommandSetMultipleDNS(DNSHijack).ino
      │      
      ├─Linux_Built-inReverseShell
      │      LinuxReverseShell (CodeExecution).ino
