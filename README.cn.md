@@ -17,10 +17,6 @@ BadUSB也是社会工程学的一个典型示例，它极大地利用了人们�
 ![BadUSB钓鱼](https://upload-images.jianshu.io/upload_images/11477676-3d1f812778254931.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 ### 教程
-[视频地址](https://www.yuque.com/u12074055/cpuceb/qicml3) <br>
-视频：BadUSB编译软件介绍<br>
-视频：BadUSB驱动程序安装及代码写入<br>
-视频：BadUSB基本操作<br>
 [具体步骤请移步至简书](https://www.jianshu.com/p/2b2b1dab85fe) <br>
 ![操作步骤](https://upload-images.jianshu.io/upload_images/11477676-390539861bec703c.png?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
@@ -199,32 +195,24 @@ BadUSB也是社会工程学的一个典型示例，它极大地利用了人们�
 
 
 ### 演示<br>
-[视频地址](https://www.yuque.com/u12074055/cpuceb/qfxz0f) <br>
-视频：【硬件黑客】通过wifi控制上传执行，运行，编写hid脚本的badUSB以及一个小番外1<br>
-视频：【硬件黑客】通过WIFI控制上传执行，运行，编写hid脚本的BadUSB以及一个小番外2<br>
-视频：【BadUSB演示】U盘攻击：无视任何杀软，3秒黑掉你的电脑！<br>
-视频：【BadUSB演示】入侵广场大屏幕，附带教程1<br>
-视频：【BadUSB演示】入侵广场大屏幕，附带教程2<br>
-视频：【BadUSB演示】BadUSB实现记录键盘<br>
-视频：【BadUSB演示】更改所用账户密码+关闭系统进程+蓝屏测试<br>
+更改所用账户密码+关闭系统进程+蓝屏测试<br>
 ![演示](https://upload-images.jianshu.io/upload_images/11477676-31390e8446540ca3.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 ### 进阶<br>
-[视频地址](https://www.yuque.com/u12074055/cpuceb/dm1veu) <br>
-视频：BadUSB&MSF联动<br>
-视频：使用Nethunter启动BadUSB<br>
+网站一句话入侵<br>
+BadUSB&MSF联动<br>
+BadUSB&CS联动<br>
+WIFI局域网入侵<br>
+运行U盘内的程序_扩大入侵范围<br>
 ![进阶](https://upload-images.jianshu.io/upload_images/11477676-cc6c47da713ac2e2.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
-### 常见问题和错误<br>
-[视频地址](https://www.yuque.com/u12074055/cpuceb/uofha2) <br>
-视频：BadUSB代码写入异常处理<br>
+### 解疑<br>
+你可以在微信、QQ群、Gitee、Gihub上留言，团队看到后会尽快回复。
 ![常见问题和错误](https://upload-images.jianshu.io/upload_images/11477676-0c90a8004d5e5420.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 ### 扩展<br>
-[视频地址](https://www.yuque.com/u12074055/cpuceb/hs3n7p) <br>
-视频：【硬件黑客】九元成本做一个BadUSB<br>
-视频：【硬件黑客】可以直接替代大黄鸭和WiFiducky的新型BadUSB<br>
-视频： BadUSB教程Digispark+中文BadUSB <br>
+实现特定功能<br>
+其他实现BadUSB功能的板子（需要另安驱动，不是特别推荐）<br>
 ![扩展](https://upload-images.jianshu.io/upload_images/11477676-bba7de72abd2072d.jpg?imageMogr2/auto-orient/strip|imageView2/2/w/554/format/webp)<br>
 
 ### 更新<br>
