@@ -1,7 +1,7 @@
 # BadUSB
-This project takes advantage of the loophole in USB protocol. By changing the internal firmware of USB, after accessing the USB interface, it simulates the functions of external mouse and keyboard, so as to make the target host execute the well-constructed commands  
+This project takes advantage of the loophole in USB protocol. By changing the internal firmware of USB, after accessing the USB interface, it simulates the functions of external mouse and keyboard, so as to make the target host execute the well-constructed commands.<br>
 
-![fsociety](https://images.gitee.com/uploads/images/2021/0202/213932_6e4b146f_2323666.jpeg "src=http___static.ts.360.com_blog_wp-content_uploads_2016_08_160822-Post-fsociety-1.png&refer=http___static.ts.360.jpg")
+![68747470733a2f2f696d616765732e67697465652e636f6d2f75706c6f6164732f696d616765732f323032312f303230322f3231333933325f36653462313436665f323332333636362e6a706567](https://user-images.githubusercontent.com/39434325/112772972-75a8e900-9066-11eb-9948-895916bf18ef.jpg)<br>
 #### QQ：775942445<br>
 #### WeChat：wwy18795980897<br>
 
